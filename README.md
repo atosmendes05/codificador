@@ -19,9 +19,9 @@ Clique no botão "Decodificar" para obter a mensagem original.
 
 Tecnologias Utilizadas
 
-JavaScript
-HTML
-CSS
+JavaScript <br>
+HTML<br>
+CSS<br>
 
 Funcionalidades
 
