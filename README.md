@@ -17,13 +17,13 @@ Abra o index.html no seu navegador.
 Insira a mensagem codificada no campo de entrada.
 Clique no botão "Decodificar" para obter a mensagem original.
 
-Tecnologias Utilizadas
+<strong>Tecnologias Utilizadas</strong>
 
 JavaScript <br>
 HTML<br>
 CSS<br>
 
-Funcionalidades
+<strong>Funcionalidades</strong>
 
 Codificação de mensagens.<br>
 Decodificação de mensagens.
