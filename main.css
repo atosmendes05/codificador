@@ -1,0 +1,202 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container__content {
+    display: grid;
+    grid-template-columns: repeat(2, 60% 40%);
+    height: 100vh;
+    width: 100vw;
+    background-color: #F3F5FC;
+}
+
+.cal-2__img {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.content__text {
+    margin-top: 32px;
+    text-align: center;
+}
+
+.content__text > strong {
+    font-size: 1rem;
+    line-height: 28.8px;
+}
+
+.content__text > p {
+    font-size: 1rem;
+    margin-top: 16px;
+    line-height: 24px;
+}
+
+.cal-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cal-2__content {
+    background-color: #fff;
+    border-radius: 32px;
+    padding: 0px 32px;
+    max-width: 400px;
+    width: 100%;
+    max-height: 600px;
+    height: 100%;
+    margin: 0px 2rem;
+    overflow-y: scroll;
+}
+
+
+.cal-1__content {
+    text-align: center;
+    padding: 30px 32px;
+    max-width: 700px;
+    width: 100%;
+    height: 100%;
+    max-height: 600px;
+    margin: 0px auto;
+}
+
+
+#input__text {
+    max-height: 400px;
+    height: 100%;
+    border: none;
+    font-size: 32px;
+    color: #0A3871;
+    background-color: transparent;
+    max-width: 600px;
+    width: 100%;
+    resize: none; 
+}
+
+#input__text:focus {
+    outline: none;
+    border: none;
+}
+
+
+.btn {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 24px;
+    max-width: 200px;
+    width: 100%;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn__c {
+    color: #fff;
+    background-color: #0A3871;
+    margin-right: 20px;
+}
+
+.btn__d {
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
+
+.btn__copia {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.title {
+    color: #0A3871;
+    text-align: start;
+}
+
+.texto {
+    font-size: 1.2rem;
+    line-height: 36px;
+    padding: 1rem;
+}
+
+.no-scrollbar {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    width: 0px; /* Remove a barra de rolagem no WebKit */
+}
+
+
+
+@media (max-width: 859px) {
+
+    .container__content {
+        display: block;
+    }
+
+    .cal-2__img {
+        display: none;
+    }
+
+    .cal-2__content {
+        padding: 5px;
+        margin: 0px auto;
+        max-width: 500px;
+    }
+
+    .cal-1__content {
+        padding: 10px 20px;
+    }
+
+    .btn {
+        padding: 10px;
+    }
+
+    .content__text {
+        margin: 5px;
+    }
+
+    .content__text > p {
+        margin: 5px 0px;
+    }
+
+    .cal-2__content {
+        margin: 10px 20px;;
+    }
+
+    .container__content {
+        overflow-y: scroll;
+    }
+   
+
+}
+
+
+@media (max-width: 480px) {
+
+    #input__text {
+        max-height: 300px;
+    }
+
+
+    .btn {
+        max-width: none;
+    }
+
+    .btn__c {
+        margin-bottom: 10px;
+    }
+
+    .cal-2__content {
+        margin: 10px 20px;
+    }
+
+
+    .container__content {
+        overflow-y: scroll;
+    }
+
+}
