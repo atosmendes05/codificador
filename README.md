@@ -3,7 +3,7 @@
 <strong>Descrição</strong>
 O Codificador é um projeto que permite codificar e decodificar mensagens, tornando-o extremamente útil para conversas secretas.
 
-<strong>Uso</strong>
+<strong>Uso</strong> <br>
 
 Aqui estão alguns exemplos de como usar o Codificador:
 
