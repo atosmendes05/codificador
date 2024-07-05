@@ -1,9 +1,9 @@
-Codificador
+<strong>Codificador</strong>
 
-Descrição
+<strong>Descrição</strong>
 O Codificador é um projeto que permite codificar e decodificar mensagens, tornando-o extremamente útil para conversas secretas.
 
-Uso
+<strong>Uso</strong>
 
 Aqui estão alguns exemplos de como usar o Codificador:
 
@@ -25,6 +25,6 @@ CSS<br>
 
 Funcionalidades
 
-Codificação de mensagens.
+Codificação de mensagens.<br>
 Decodificação de mensagens.
 
